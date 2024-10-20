@@ -1,0 +1,25 @@
+
+.movieCard {
+
+}
+
+.movieCard__img {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6627FF;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.movieCard__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie__descr {
+    margin-bottom: 10px;
+}

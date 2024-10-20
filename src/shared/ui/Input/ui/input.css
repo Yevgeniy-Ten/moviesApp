@@ -1,0 +1,37 @@
+.input {
+    background: #FCFCFF;
+    border: 1px solid #E6EAF5;
+    border-radius: 5px;
+    padding: 11px 15px;
+    transition: border 0.3s;
+    width: 100%;
+    font-size: 14px;
+}
+
+.input.rightIcon {
+    padding-right: 40px;
+}
+
+.input:hover {
+    border: 1px solid #929BBC;
+}
+
+.input:focus {
+    border: 1px solid #929BBC;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #929BBC;
+}
+
+.input__parent {
+    position: relative;
+}
+
+.input__svg {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}

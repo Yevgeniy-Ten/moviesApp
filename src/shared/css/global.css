@@ -1,0 +1,57 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Gilroy', sans-serif;
+}
+
+/* Base container styles */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Medium screens (tablets and small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Small screens (landscape phones and small tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Extra small screens (portrait phones) */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.w-full {
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
